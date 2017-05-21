@@ -34,7 +34,11 @@ For older versions, check the available [releases](../../releases).
 
 * Make sure you have the **Droid Sans** font installed.
 
-* Move the `.harmattan-assets` folder into your `~` dir.
+* Move folders `.harmattan-assets` and `.harmattan-themes` into your `~` dir.
+
+* Move conky.desktop file to ~/.config/autostart/ (with cp conky.desktop ~/.config/autostart/)
+
+* Copy .conkyrc file into your `~` dir.
 
 * Each theme is made of a single `.conkyrc` file which sits at the end of a file path inside the `.harmattan-themes` folder.
 
